@@ -58,15 +58,15 @@ const RecentProjects = () => {
                                                 transform: `translateX(-${5 * index + 2}px)`,
                                             }}
                                         >
-                                            <img src={icon} alt="icon5" className="p-2" />
+                                            <img src={icon} alt="icon5" className="p-2 object-cover overflow-hidden" />
                                         </div>
                                     ))}
                                 </div>
 
                                 <div className="flex justify-center items-center">
-                                    <p className="flex lg:text-xl md:text-xs text-sm text-purple">
+                                    <a href={item.link} target="#" className="flex lg:text-xl md:text-xs text-sm text-purple">
                                         Check Live Site
-                                    </p>
+                                    </a>
                                     <FaLocationArrow className="ms-3" color="#CBACF9" />
                                 </div>
                             </div>
