@@ -16,7 +16,7 @@ export default function Home() {
         <Hero></Hero>
         <Grid></Grid>
         <RecentProject></RecentProject>
-        <Clients></Clients>
+        {/* <Clients></Clients> */}
         <Experience></Experience>
         <Approach>
         </Approach>
